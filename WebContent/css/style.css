@@ -1,0 +1,230 @@
+@charset "UTF-8";
+
+body, html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-family: "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック",
+		"Helvetica", "Arial", sans-serif;
+}
+
+header {
+	position: fixed;
+	float: left;
+	top: 0;
+	width: 100%;
+	height: 70px;
+	color: #494949;
+	background: #FFCCCC;
+}
+
+#site_title {
+	height: 70px;
+	line-height: 70px;
+	margin: 0px 40px;
+	float: left;
+	line-height: 70px;
+}
+
+#site_title a {
+	font-size: 30px;
+	font-family: "Helvetica", "Amatic SC", cursive;
+	color: maroon;
+}
+
+#header_nav {
+	float: left;
+	margin-left: -30px;
+}
+
+#header_nav ul {
+	float: left;
+	width: 100%;
+	position: absolute;
+	width: 100%;
+}
+
+#header_nav ul li {
+	float: left;
+	list-style: none;
+	margin-top: 5px;
+	padding-left: 1%;
+	color: #CC0033;
+	font-size: 1vw;
+}
+
+#main {
+	padding: 13vh 5vw;
+	margin: 0px auto;
+}
+
+h1 {
+	width: 70%;
+	border-top: 0.2vw solid #FFCCCC;;
+	border-bottom: 0.2vw solid #FFCCCC;;
+	text-align: center;
+	font-size: 30px;
+	padding: 15px 0px;
+	margin: 25px auto;
+	margin-bottom: 60px;
+}
+
+h2 {
+	font-size: 25px;
+	text-align: center;
+}
+
+h3 {
+	color: black;
+	width: 70%;
+	margin: 0px auto;
+	margin-top: -10px;
+	margin-bottom: 60px;
+	font-size: 18px;
+	text-align: right;
+}
+
+.info, .success {
+	width: 68.5%;
+	border: 0.15vw solid blue;
+	background-color: lightblue;
+	text-align: center;
+	font-size: 1.5vh;
+	color: blue;
+	padding: 1vh;
+	margin: 0 auto;
+	margin-bottom: 6vh;
+}
+
+.error {
+	width: 68.5%;
+	border: 0.15vw solid red;
+	background-color: pink;
+	text-align: center;
+	font-size: 1.5vh;
+	color: red;
+	padding: 1vh;
+	margin: 0 auto;
+	margin-bottom: 2vh;
+}
+
+.txt_keyword {
+	height: 3vh;
+	border: 0.05vw solid gray;
+	border-radius: 2vw;
+	padding-left: 0.5vw;
+	margin-top: 0.2vh;
+}
+
+#categoryId {
+	height: 3vh;
+	margin-top: 0.4vh;
+}
+
+.check_box {
+	width: 70%;
+	margin: 0px auto;
+	margin-top: -25px;
+	margin-bottom: 50px;
+}
+
+.submit_btn_box {
+	width: 70%;
+	margin: 0px auto;
+}
+
+.submit_btn_box2 {
+	width: 70%;
+	margin: 0px auto;
+	margin-bottom: 10px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.submit_btn_box_cart {
+	margin-left: 38%;
+}
+
+.submit_btn_cart {
+	margin-right: 31%;
+}
+
+#deleteButton {
+	float: right;
+	margin-right: 12%;
+}
+
+.submit_btn {
+	width: 7vw;
+	height: 4vh;
+	border: -1vw solid;
+	font-size: 0.7vw;
+	text-align: center;
+	color: #fff;
+	background: #ff3333;
+	border-radius: 10vw;
+}
+
+.submit_btn1 {
+	width: 7vw;
+	height: 4vh;
+	font-size: 0.7vw;
+	text-align: center;
+	border-radius: 10vw;
+	color: #fff;
+	background: linear-gradient(135deg, #ff3333, #ff6666);
+}
+
+.submit_btn2 {
+	width: 7vw;
+	height: 4vh;
+	font-size: 0.7vw;
+	text-align: center;
+	border-radius: 10vw;
+	color: #fff;
+	background: linear-gradient(135deg, #ff3333, #ff6666);
+}
+
+.submit_btn1:hover {
+	color: #fff;
+	background: #ff3333;
+	opacity: 8;
+	cursor: pointer;
+}
+
+.submit_btn2:hover {
+	color: #fff;
+	background: #ff3333;
+	opacity: 8;
+	cursor: pointer;
+}
+
+.submit_btn1:disabled {
+	border: -1vw solid;
+	background: #ff3333;
+	opacity: 0.3;
+}
+
+.submit_btn:hover {
+	color: #fff;
+	background: #ff3333;
+	opacity: 0.6;
+	cursor: pointer;
+}
+
+.submit_btn:disabled {
+	border: -1vw solid;
+	background: #ff3333;
+	opacity: 0.3;
+}
+
+.submit_btn2 {
+	margin: 0 auto;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}

@@ -1,0 +1,101 @@
+.table {
+	margin: 5vh auto;
+	width: 70%;
+	border: 0.1vh solid #ddd;
+	border-collapse: collapse;
+}
+
+.table th {
+	text-align: left;
+	width: 25%;
+	height: 4vh;
+	color: white;
+	background-color: pink;
+	padding-left: 1vw;
+	border: 0.1vh solid #ddd;
+	border-collapse: collapse;
+	padding-top: 0.8vh;
+	padding-bottom: 0.8vh;
+}
+
+.table td {
+	color: black;
+	width: 75%;
+	border: 0.1vh solid #ddd;
+	border-collapse: collapse;
+	padding-left: 0.8vh;
+	padding-top: 0.8vh;
+	padding-bottom: 0.8vh;
+}
+
+.table .txt {
+	width: 98%;
+	margin-left: 1%;
+	margin-top: 0.5vh;
+	margin-bottom: 0.5vh;
+	padding-top: 0.5vh;
+	padding-bottom: 0.5vh;
+	border: 0.1vh solid #ddd;
+}
+
+.horizontal_table {
+	margin: 5vh auto;
+	margin-bottom: 5vh;
+	width: 70%;
+	border: 0.1vh solid #ddd;
+	border-collapse: collapse;
+}
+
+.horizontal_table th {
+	text-align: center;
+	color: white;
+	background-color: pink;
+	padding: 4px;
+	border: 0.1vh solid #ddd;
+	border-collapse: collapse;
+}
+
+.horizontal_table td {
+	text-align: left;
+	padding: 4px 10px;
+	color: black;
+	border: 0.1vh solid #ddd;
+	border: 0.1vh solid #ddd;
+	border-collapse: collapse;
+	border: 0.1vh solid #ddd;
+	font-size: 13px;
+}
+
+.cart_table {
+	margin: 5vh auto;
+	margin-bottom: 5vh;
+	width: 70%;
+	border: 0.1vh solid #ddd;
+	border-collapse: collapse;
+}
+
+.cart_table th {
+	text-align: center;
+	color: white;
+	background-color: pink;
+	padding: 10px;
+	border: 0.1vh solid #ddd;
+	border-collapse: collapse;
+}
+
+.cart_table td {
+	color: black;
+	border: 0.1vh solid #ddd;
+	text-align: center;
+	border: 0.1vh solid #ddd;
+	border-collapse: collapse;
+	border: 0.1vh solid #ddd;
+}
+
+label {
+	font-size: 1.8vh;
+}
+
+.radio {
+	color: pink;
+}
